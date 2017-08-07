@@ -24,7 +24,6 @@ public class EvenOddNumberInSequence {
 						try {
 							lock.wait();
 						} catch (InterruptedException e) {
-							// TODO Auto-generated catch block
 							e.printStackTrace();
 						}
 					}
@@ -56,6 +55,9 @@ public class EvenOddNumberInSequence {
 		
 		thread3.start();
 		thread4.start();
+		
+		/*thread3.run();
+		thread4.run();*/
 	}
 	
 	

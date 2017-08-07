@@ -2,6 +2,10 @@ package com.abstractclass;
 
 public abstract class SampleAbstractClass {
 
+	public SampleAbstractClass() {
+		
+	}
+	
 	static int test =0 ;
 	
 	public static void main(String[] args) {

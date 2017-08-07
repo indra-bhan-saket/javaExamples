@@ -21,11 +21,11 @@ public class StringPermutation {
 		permutationsGFG(str, 0, str.length());
 	}
 	
+	//First approach
 	private static void permutations(String str) {
 		permutate("", str);
 	}
 
-	//First approach
 	private static void permutate(String dummy, String str) {
 		if(str.isEmpty()) {
 			System.out.println(dummy + str);

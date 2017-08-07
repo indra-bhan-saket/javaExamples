@@ -5,6 +5,8 @@ package com.array;
 
 import java.util.Stack;
 
+import com.abstractclass.SampleAbstractClass;
+
 /**
  * @author indsaket
  *
