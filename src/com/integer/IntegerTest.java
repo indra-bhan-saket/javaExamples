@@ -12,7 +12,9 @@ public class IntegerTest {
 		System.out.println(i1>=i2);
 		System.out.println(i1<=i3);
 		
-
+		int x = Integer.MAX_VALUE+10;
+		System.out.println(x);
+		
 	}
 
 }

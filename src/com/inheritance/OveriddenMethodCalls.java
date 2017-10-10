@@ -5,7 +5,7 @@ public class OveriddenMethodCalls {
 	public static void main(String[] args) {
 		ParentClass parentClass = new ChildClass();
 		parentClass.myMethod(1);
-
+		
 	}
 
 }
